@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ACocoaPod.podspec' to ensure this is a
+# Be sure to run `pod lib lint FlavoursKit.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ACocoaPod'
+  s.name             = 'FlavoursKit'
   s.version          = '0.0.1'
-  s.summary          = 'A CocoaPod.'
+  s.summary          = 'A framework of flavours.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hussaan-s/ACocoaPod.git'
+  s.homepage         = 'https://github.com/hussaan-s/FlavoursKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Hussaan S.' => 'hussaan.s@gmail.com' }
-  s.source           = { :git => 'https://github.com/hussaan-s/ACocoaPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Muhammad Hussaan Saeed' => 'hussaan.s@gmail.com' }
+  s.source           = { :git => 'https://github.com/hussaan-s/FlavoursKit.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/_hussaan'
 
-  s.ios.deployment_target = '13.0'
-
-  s.source_files = 'ACocoaPod/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+  s.source_files = 'FlavoursKit/Core/**/*'
   
   # s.resource_bundles = {
   #   'ACocoaPod' => ['ACocoaPod/Assets/*.png']
@@ -38,5 +37,4 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

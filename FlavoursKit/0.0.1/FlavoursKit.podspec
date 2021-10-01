@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hussaan-s/FlavoursKit.git'
+  s.homepage         = 'https://github.com/hussaan-s/flavours-kit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Muhammad Hussaan Saeed' => 'hussaan.s@gmail.com' }
-  s.source           = { :git => 'https://github.com/hussaan-s/FlavoursKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hussaan-s/flavours-kit.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/_hussaan'
 
   s.ios.deployment_target = '10.0'
